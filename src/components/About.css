@@ -1,0 +1,34 @@
+.sharknells-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.sharknells-text {
+    font-size: 24px;
+    color: #000;
+    position: relative;
+    z-index: 1; /* 텍스트가 선 위에 표시되도록 조정 */
+}
+
+.sharknells-lines {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 75px; /* 조정하여 선의 위치 조절 */
+}
+
+.line {
+    height: 2px;
+    width: 50%;
+    background-color: #eeeeee;
+    position: relative;
+    z-index: 0;
+}
+
+.line:nth-child(2) {
+    font-size: 25px;
+}
