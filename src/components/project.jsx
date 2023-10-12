@@ -1,34 +1,34 @@
 import React from "react";
 
-import { siteText } from "../constants";
+import { projectText } from "../constants";
 
 const Project = () => {
     return (
-        <section id="site">
-            <div className="site__inner">
-                <h2 className="site__title">
+        <section id="project">
+            <div className="project__inner">
+                <h2 className="project__title">
                     Web Project <em>나의 작업물</em>
                 </h2>
-                <div className="site__wrap">
-                    {siteText.map((site, key) => (
-                        <article className={`site__item s${key+1}`} key={key}>
+                <div className="project__wrap">
+                    {projectText.map((Project, key) => (
+                        <article className={`project__item s${key+1}`} key={key}>
                             <span className="num">{key+1}.</span>
                             <div className="text">
-                                <div>{site.text[0]}</div>
-                                <div>{site.text[1]}</div>
-                                <div>{site.text[2]}</div>
+                                <div>{Project.text[0]}</div>
+                                <div>{Project.text[1]}</div>
+                                <div>{Project.text[2]}</div>
                             </div>
                             <h3 className="title">
-                                {site.title}
+                                {Project.title}
                             </h3>
                             <div className="btn">
-                                <a href={site.code}>code</a>
-                                <a href={site.view}>view</a>
+                                <a href={Project.code}>code</a>
+                                <a href={Project.view}>view</a>
                             </div>
                             <div className="info">
-                                <span>{site.info[0]}</span>
-                                <span>{site.info[1]}</span>
-                                <span>{site.info[2]}</span>
+                                <span>{Project.info[0]}</span>
+                                <span>{Project.info[1]}</span>
+                                <span>{Project.info[2]}</span>
                             </div>
                         </article>
                     ))}

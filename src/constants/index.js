@@ -2,12 +2,12 @@
 
 export const headerNav = [
     {
-        title: "About me",
-        url: "#aboutme"
+        title: "Stack",
+        url : "#stack"
     },
     {
-        title: "skill",
-        url: "#skill"
+        title: "About me",
+        url: "#aboutme"
     },
     {
         title: "project",
@@ -21,7 +21,7 @@ export const headerNav = [
 ];
 
 export const aboutmeText = {
-    title: "full stack developer",
+
     desc: ["Second " , "To" , "None"]
 }
 
@@ -68,7 +68,7 @@ export const skillText = [
     }
 ]
 
-export const siteText = [
+export const projectText = [
     {
         text: ["App", "Project" , "Android Studio", "Turtle neck helper"],
         title : "Stretching methods, alarms, and camera functions are provided for users suffering from turtle neck syndrome.",
