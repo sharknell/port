@@ -2,10 +2,6 @@
 
 export const headerNav = [
     {
-        title: "Stack",
-        url : "#stack"
-    },
-    {
         title: "About me",
         url: "#aboutme"
     },
