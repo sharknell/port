@@ -18,7 +18,8 @@ export const headerNav = [
 
 export const aboutmeText = {
 
-    desc: ["Second " , "To" , "None"]
+    title: ["Second\n" , "To\n" , "None"],
+    desc: ["두번째" + "란" + "없다.]
 }
 
 export const skillText = [
