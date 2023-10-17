@@ -18,6 +18,7 @@
                         </div>
                         <div className="about__text">
                             <div className="text">
+                                <div>{aboutmeText.title}</div>
                                 <div>{aboutmeText.desc[0]}</div>
                                 <div>{aboutmeText.desc[1]}</div>
                                 <div>{aboutmeText.desc[2]}</div>
