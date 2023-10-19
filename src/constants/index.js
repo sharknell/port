@@ -17,8 +17,9 @@ export const headerNav = [
 ];
 
 export const aboutmeText = {
+    title:["Second \n" + "To \n" + "None \n"],
+    desc: ["나의 결심 : 두번째란 없다."]
 
-    desc: ["Second " , "To" , "None"]
 }
 
 export const skillText = [
@@ -26,9 +27,28 @@ export const skillText = [
         title: "최종 학력 및 교육 과정",
         desc: (
             <div>
-               <b> 최종 학력 </b>: 평택대학교 융합소프트웨어 학과 2018.03 ~ 2023.02(졸업)
-                <br />
-                <b>교육 과정 </b>: 그린컴퓨터 아카데미: Java(자바) 기반 풀스택 개발자 2023.04.25 ~ 2023.10.31(수료예정)
+                <h3> 전공 :</h3>
+                <b> 융합소프트웨어  </b>
+                <hr />
+
+                <h3> 학력 :</h3>
+                <b> 평택대학교</b> 2018.03 ~ 2023.02 (졸업) <br />
+                <b> 의정부 공업 고등학교 </b> 스마트전자과 2015.03 ~ 2018.2 (졸업) <br />
+                <hr />
+
+                <h3 > 교육 과정 :</h3>
+                <b>(기업수요)Open API 를 활용한 Java기반 풀스택 개발자 양성 과정</b> <br />
+                2023.04 ~ 2023.10
+                <hr />
+
+                <h3> 기술 스택</h3>
+                <h4> Front End</h4>
+                <b>HTML5 &ensp; CSS3 &ensp; JAVASCRIPT &ensp; REACT</b><br />
+                <h4> BACK End</h4>
+                <b>JAVA &ensp; SPRINGBOOT &ensp; MARIADB &ensp; MYSQL &ensp;</b>
+                <h4> TOOL </h4>
+                <b> IntelliJ IDEA &ensp; VSCODE &ensp; Postman &ensp; GITHUB &ensp;</b>
+                <hr />
             </div>
         ),
     },
