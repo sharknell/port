@@ -17,9 +17,8 @@ export const headerNav = [
 ];
 
 export const aboutmeText = {
-    title:["Second \n" + "To \n" + "None \n"],
+    title:["Second \n" , "To \n" , "None \n"],
     desc: ["나의 결심 : 두번째란 없다."]
-
 }
 
 export const skillText = [
