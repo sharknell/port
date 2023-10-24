@@ -24,7 +24,18 @@ const Project = () => {
                             <div className="btn">
                                 <a href={Project.code}>code</a>
                                 <a href={Project.view}>view</a>
+                                <a href={Project.ppt}>ppt</a>
                             </div>
+                            <h3 className="position">
+                                My Position :  {Project.position}
+                            </h3>
+                            <div className="position">
+                            </div>
+
+                            <h3 className="charge-text">
+                                 담당 역할 : {Project.charge}
+                            </h3>
+
                             <div className="info">
                                 <span>{Project.info[0]}</span>
                                 <span>{Project.info[1]}</span>
