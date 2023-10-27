@@ -128,6 +128,7 @@ export const projectText = [
         text: ["Web", "Project", "Online Shopping Mall"],
         title: "Web Project with Springboot",
         code: "https://github.com/sharknell/Website",
+        view : "https://drive.google.com/file/d/1DBfzgzjGsvl7aBjg6KRbqxFvyagxSll3/view?usp=sharing",
         ppt : "https://docs.google.com/presentation/d/105c6f35L9HGQR4yqfremxD_ftdtlu4NleHikqzCSpGM/edit?usp=sharing",
         position:" PM(Project Manager)",
         charge: "웹 개발 기획 , Thymeleaf 을 사용한 상품들 View 로 구현 ,Cart(장바구니)",
