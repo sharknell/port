@@ -46,11 +46,25 @@ export const skillText = [
                     <h3>기술 스택:</h3>
                     <div className="subsection">
                         <h4>Front End</h4>
-                        <b>HTML5 &ensp; CSS3 &ensp; JAVASCRIPT &ensp; REACT</b><br />
+                        <b style={{ display: "inline-block" }}>
+                            HTML5
+                            <span style={{ margin: "0 8px" }} />
+                            CSS3
+                            <span style={{ margin: "0 8px" }} />
+                            JAVASCRIPT
+                            <span style={{ margin: "0 8px" }} />
+                            REACT
+                        </b>
                     </div>
                     <div className="subsection">
                         <h4>Back End</h4>
-                        <b>Node.js &ensp; MARIADB &ensp; MYSQL &ensp;</b>
+                        <b style={{ display: "inline-block" }}>
+                            Node.js
+                            <span style={{ margin: "0 8px" }} />
+                            MARIADB
+                            <span style={{ margin: "0 8px" }} />
+                            MYSQL
+                        </b>
                     </div>
                 </div>
                 <hr />
@@ -79,7 +93,7 @@ export const projectText = [
     {
         text: ["Web", "Project", "Todo List", "Life Checker"],
         title: "Personal Todo List Web App to manage daily tasks, track emotional mood, and visualize productivity.",
-             code: "https://github.com/sharknell/LifeCheck",
+        code: "https://github.com/sharknell/LifeCheck",
         position: "Personal Project",
         charge: "React.js와 Chart.js를 활용하여 할 일 목록 및 감정(mood) 기록 기능 구현, 사용자 친화적인 UI/UX 구성, LocalStorage를 통한 데이터 저장 및 시각화 기능 구현",
         info: [
@@ -90,8 +104,7 @@ export const projectText = [
             "use stack : React, JavaScript, Chart.js, HTML5, CSS3",
             "tool : Visual Studio Code, GitHub"
         ]
-    }
-    ,
+    },
     {
         text: ["Web", "Project", "Book Rental", "Toss Pay"],
         title: "Book Rental Web Application with Toss Pay Integration for seamless online payments.",
@@ -107,8 +120,7 @@ export const projectText = [
             "use stack : React, JavaScript, Node.js, Toss Payments SDK",
             "tool : Visual Studio Code, GitHub"
         ]
-    }   
-    ,
+    },
     {
         text: ["Web", "Project", "Shopping Mall", "Toss Pay"],
         title: "Book Rental Web Application with Toss Pay Integration for seamless online payments.",
@@ -124,8 +136,7 @@ export const projectText = [
             "use stack : React, JavaScript, Node.js, Toss Payments SDK",
             "tool : Visual Studio Code, GitHub"
         ]
-    }   
-    ,
+    },
     {
         text: ["App", "Project", "Android Studio", "Turtle neck helper"],
         title: "Stretching methods, alarms, and camera functions are provided for users suffering from turtle neck syndrome.",
