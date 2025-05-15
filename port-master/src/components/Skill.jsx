@@ -5,7 +5,7 @@ import { skillText } from "../constants";
 const Skill = () => {
     return (
         <section id="skill">
-            <div className="slkll__inner">
+            <div className="skill__inner">
                 <h2 className="skill__title">
                     About me  <em> 나의 경험 </em>
                 </h2>
